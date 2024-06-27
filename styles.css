@@ -1,0 +1,23 @@
+.heading {
+    color: black;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.command {
+    color: chocolate;
+    font-weight: bold;
+}
+
+.info {
+    color: blue;
+    font-weight: bold;
+}
+
+ul>li {
+    list-style-type: disc;
+}
