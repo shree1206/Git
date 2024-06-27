@@ -117,7 +117,6 @@
                 <li class="info">to eliminate the folder:- demo/</li>
             </ul>
         </li>
-
         <li>
             <p class="heading">File Status Lifecycle</p>
             Untacked: after adding -- unmodified stage -- if we are editing -- modified stage -- add -- staged -- commit
@@ -129,8 +128,39 @@
                 <li>Staged</li>
             </ul>
         </li>
-
+        <li>
+            <p class="heading">Diff between the working directory and staged area</p>
+            <p class="command">git diff</p>
+            <ul>
+                <li>First change in file1</li>
+                <li>git status</li>
+                <li>gives modified state in red color</li>
+                <li>then run git add --a to send this file to staged area</li>
+                <li>run git status</li>
+                <li>it will show in green color</li>
+                <li>again change in file1</li>
+                <li>git status</li>
+                <li>show two option: 1- modified in red color(working area file), and 2- modified in green color(staged
+                    area file)</li>
+                <li>to show the diff between them</li>
+                <li>run git diff</li>
+            </ul>
+        </li>
+        <li>
+            <p class="heading">Diff between staged area and last commit</p>
+            <p class="command">git diff --staged</p>
+            <ul>
+                <li>git status</li>
+                <li>not git add for the latest changed file: git add --file1.txt, now this file has moved to staged area
+                </li>
+                <li>git status</li>
+                <li>now only one option will show in green color: modified state</li>
+                <li>to see the diff between the staged and last commit</li>
+                <li>run the command - git diff --staged</li>
+            </ul>
+        </li>
     </ol>
+    <br><br><br><br><br><br>
 </body>
 
 </html>
